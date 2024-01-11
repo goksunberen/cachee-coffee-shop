@@ -40,6 +40,10 @@ a{
     padding: 1rem;
 }
 
+.nav-options li :hover{
+    background-color: #AEADAD44;
+}
+
 .banner{
     display: flex;
     justify-content: center;
