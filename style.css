@@ -72,3 +72,38 @@ hr{
     background-image: linear-gradient(to right, #D6D6D600, #FFFFFFBF, #D6D6D600);
 }
 
+.about{
+    background-color: #FAEBD7;
+    color: #000000;
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about-img>img{
+    width: 35%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: #00000059 0rem 0.3rem 1rem;
+}
+
+.about-text{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8;
+    padding-right: 5rem;
+}
+
+.about>*{
+    flex-basis: 100%;
+}
