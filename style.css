@@ -65,7 +65,7 @@ a{
     text-align: center;
     border: 1px solid #FFFFFF8F;
     border-radius: 0.5rem;
-    box-shadow: #000000AD 1rem 1rem 2rem;
+    box-shadow: #000000AD 0rem 1rem 2rem;
 }
 
 hr{
@@ -96,7 +96,7 @@ hr{
     width: 30%;
     height: auto;
     border-radius: 0.5rem;
-    box-shadow: #00000059 0rem 0.3rem 1rem;
+    box-shadow: #00000059 0rem 0.5rem 1rem;
 }
 
 .about-text{
