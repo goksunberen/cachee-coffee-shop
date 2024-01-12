@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- Navigation bar section -->
-    <div class="nav-bar">
-        <div class="logo">
+    <div class="nav-bar" data-aos="fade-in">
+        <div class="logo" data-aos="fade-left">
             <h1><a href="./index.html">Cachée</a></h1>
         </div>
-        <div class="nav-options">
+        <div class="nav-options" data-aos="fade-left">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
@@ -28,7 +29,7 @@
     <!-- Banner -->
     <div class="banner">
         <img src="./images/banner.jpg" alt="Coffee shop with plants and wooden design">
-        <div class="banner-text">
+        <div class="banner-text" data-aos="fade-in" data-aos-duration="2000">
             <h2>Welcome to Cachée!</h2>
             <hr>
             <p>Where Coffee Whispers Sweet Secrets</p>
@@ -38,11 +39,11 @@
 
     <!-- About section-->
     <div class="about">
-        <div class="about-img">
-            <img src="./images/coffee.jpg" alt="">
-            <img src="./images/baked.jpg" alt="">
+        <div class="about-img" data-aos="fade-left">
+            <img src="./images/coffee.jpg" alt="A person is holding a cup with coffee inside and is pouring milk">
+            <img src="./images/baked.jpg" alt="An image of baked goods like muffins and cakes">
         </div>
-        <div class="about-text">
+        <div class="about-text" data-aos="fade-left">
             <p> Welcome to Cachée, where every cup is a hug in a mug, and every bite is a taste of happiness.
                 We are more than just a coffee shop; we are a celebration of warmth, community, and the simple pleasures of life. 
                 At Cachée, we take pride in crafting the perfect brews that awaken your senses, alongside a delightful range of 
@@ -56,7 +57,7 @@
 
     <!-- Coffee shop information section -->
     <div class="info-wrapper">
-        <div class="hours">
+        <div class="hours" data-aos="fade-left">
             <h2>Opening Hours</h2>
             <table>
                 <tr><th>Monday</th><td>9:00 - 17:00</td></tr>
@@ -67,7 +68,7 @@
                 <tr><th>Weekends</th><td>CLOSED</td></tr>
             </table>
         </div>
-        <div class="location">
+        <div class="location" data-aos="fade-left">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.514494372196!2d3.044279376146201!3d50.636135371628214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d57eef68c66d%3A0x4555652138daef59!2sEsquermes%2C%2059800%20Lille%2C%20Frankreich!5e0!3m2!1sde!2sde!4v1705066304378!5m2!1sde!2sde" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
@@ -99,5 +100,14 @@
         </div>
     </div>
     <!-- End of footer -->
+
+    <!-- For animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
 </body>
 </html>
