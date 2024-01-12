@@ -33,7 +33,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #000000;
+    color: inherit;
 }
 
 .nav-options a{
@@ -64,6 +64,7 @@ a{
     font-size: 2.5rem;
     text-align: center;
     border: 1px solid #FFFFFF8F;
+    border-radius: 0.5rem;
 }
 
 hr{
@@ -140,4 +141,35 @@ hr{
     border: 0;
     border-radius: 0.5rem;
     box-shadow: #00000059 0rem 0.3rem 1rem;
+}
+
+.footer{
+    background-color: #798777;
+    color: #FAEBD7EF;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.footer-nav>ul{
+    list-style: none;
+    line-height: 1.8;
+}
+
+.footer-nav li:hover{
+    color: #FAEBD787;
+}
+
+.footer-contact>table{
+    border-spacing: 0.6rem;
+}
+
+.fa-brands{
+    margin-right: 1rem;
+}
+
+.fa-brands:hover{
+    color: #FAEBD787;
 }
