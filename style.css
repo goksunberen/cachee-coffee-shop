@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     box-sizing: border-box;
     margin: 0;
@@ -81,7 +85,7 @@ hr{
     height: auto;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .about-img{
@@ -116,7 +120,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .hours{
