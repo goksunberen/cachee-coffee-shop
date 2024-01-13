@@ -216,6 +216,7 @@ hr{
     flex-direction: column;
     color: #FAEBD7;
     font-family: 'Abel', sans-serif;
+    padding-top: 3rem;
 }
 
 form>*{
