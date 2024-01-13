@@ -173,3 +173,78 @@ hr{
 .fa-brands:hover{
     color: #FAEBD787;
 }
+
+/* CONTACT PAGE STYLE */
+
+.contact-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #525c519d), url(./images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-wrapper>*{
+    flex-basis: 100%;
+    margin: 0rem 5rem;
+}
+
+.contact-information{
+    font-family: 'Abel';
+    color: #FAEBD7;
+}
+
+.contact-information>h1{
+    font-size: 4rem;
+}
+.contact-information>p{
+    font-size: 1.5rem;
+}
+
+.contact-information>table{
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    border-spacing: 0.5rem;
+}
+
+.contact-form>form{
+    display: flex;
+    flex-direction: column;
+    color: #FAEBD7;
+    font-family: 'Abel', sans-serif;
+}
+
+form>*{
+    margin-top: 0.5rem;
+}
+
+#contact-submit{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contact-submit:hover{
+    background-color: #857F789E;
+}
+
+#contact-submit, input, textarea{
+    color: #FAEBD7;
+    background: transparent;
+    border: 1px solid #FAEBD7;
+    outline: 0;
+}
+
+input{
+    height: 1.6rem;
+}
+
+textarea{
+    resize: none;
+}
