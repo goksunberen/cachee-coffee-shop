@@ -7,8 +7,8 @@ body{
 }
 
 .nav-bar{
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #798777;
+    color: #FAEBD7;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ a{
     position: absolute;
     padding: 1rem;
     background-color: #000000B4;
-    color: #FFFFFF;
+    color: #FAEBD7;
     font-family: 'Abel', sans-serif;
     font-size: 2.5rem;
     text-align: center;
