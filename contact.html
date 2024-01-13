@@ -6,6 +6,7 @@
     <title>Contact Us | Cachée</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- Navigation bar section -->
@@ -27,7 +28,7 @@
 
     <!-- Contact section -->
     <div class="contact-wrapper">
-        <div class="contact-information">
+        <div class="contact-information" data-aos="fade-left">
             <h1>Contact Us</h1>
             <p>You can use our contact form or our contact information to reach out to us</p>
             
@@ -36,7 +37,7 @@
                 <tr><th>Email:</th><td>info@cacheecoffeeshop.com</td></tr>
             </table>
         </div>
-        <div class="contact-form">
+        <div class="contact-form" data-aos="fade-in" data-aos-duration="2000">
           <form>
             <label for="name">Name</label>
             <input type="text" id="name" required>
@@ -49,5 +50,14 @@
         </div>
     </div>
     <!-- End of contact section -->
+
+    <!-- For animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
 </body>
 </html>
