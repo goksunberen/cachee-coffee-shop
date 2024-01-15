@@ -19,6 +19,7 @@ body{
     height: 4rem;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 1;
 }
 
@@ -252,4 +253,52 @@ input{
 
 textarea{
     resize: none;
+}
+
+/* GALLERY PAGE STYLE */
+
+.gallery-body{
+    background-color:  #BDD2B6;
+}
+
+.gallery-wrapper{
+    margin: 4rem 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.gallery-text{
+    font-family: 'Abel', sans-serif;
+    color: #000000C6;
+    text-align: center;
+    padding: 0 20rem;
+    font-size: 1.1rem;
+}
+
+.gallery-text>h1{
+    font-size: 4rem;
+}
+
+.gallery-images{
+    margin: 3rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.gallery{
+    background-color: #7B7B7B89;
+    box-shadow: #00000020 0rem 0.3rem 1rem;
+    padding: 0.5rem;
+}
+
+.gallery:hover{
+    background-color: #48484889;
+}
+
+.gallery>img{
+    height: 19rem;
+    width: auto;
 }
