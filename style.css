@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -301,4 +302,71 @@ textarea{
 .gallery>img{
     height: 19rem;
     width: auto;
+}
+
+/* MENU PAGE STYLE */
+
+.menu-body{
+    font-family: 'Abel', sans-serif;
+    background-color: #BDD2B6;
+}
+  
+.menu{
+    max-width: 50rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    background-color: #FAEBD7C4;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.6rem #0000003B;
+}
+
+.menu>hr{
+    background-image: linear-gradient(to right, #D6D6D600, #5A5A5A76, #D6D6D600);
+}
+
+.menu-list{
+    display: flex;
+    gap: 2rem;
+}
+  
+.menu-list>*{
+    flex-basis: 100%;
+    padding: 0 2rem;
+}
+  
+.title>h2{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #333333;
+}
+  
+.title>h3{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+    color: #333333;
+}
+  
+.menu-item{
+    margin-bottom: 3rem;
+    color: #333333;
+}
+  
+.menu-item>h4{
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.25rem;
+}
+  
+.menu-item>p{
+    color: #666666;
+}
+  
+.menu-item span{
+    display: block;
+    font-weight: bold;
+    margin-top: 0.5rem;
 }
